@@ -1,8 +1,8 @@
 # Java Basic 1 - Exercise
 
-Create the following structure in your project:
+## Create the following structure in your project:
 
-### Classes: 
+#### Classes: 
 
   **Animal**  
   \- id : long  
@@ -21,7 +21,7 @@ Create the following structure in your project:
     \- age : int  
     \- animals : List<Animal>  
 
-### Main:
+#### Main:
 
   Now create a main class and do the following items:
 
