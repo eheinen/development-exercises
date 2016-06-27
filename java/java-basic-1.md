@@ -2,7 +2,7 @@
 
 Create the following structure in your project:
 
- ### Classes: 
+### Classes: 
 
   **Animal**  
   \- id : long  
