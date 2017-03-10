@@ -1,6 +1,4 @@
-# Ruby Basic 1 - Exercises
-
-### Ruby Basic 1 - Exercise 1
+### Exercise 1 - I was born!
 
 - Create a method to print out the text "Hello World!"
 - Create a method to receive a string parameter and print out the text "Hello World {name}". Replace {name} for the parameter value.

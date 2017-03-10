@@ -1,4 +1,4 @@
-### Ruby Basic 1 - Exercise 2
+### Exercise 2 - Why do you use Windows' calculator even?
 
 Create a 5 methods to represent a simple calculator:
   - sum  
@@ -16,7 +16,7 @@ What I expect:
 - I want to pass 2 number in each method call:  
   ```
   sum(1, 3)   
-  
+
   => 4
   ```
 - A message informing I cannot divide by zero in both divide_if and divide_exception methods.
