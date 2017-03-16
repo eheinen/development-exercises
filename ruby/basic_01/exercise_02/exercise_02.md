@@ -1,6 +1,6 @@
 ### Exercise 2 - Why do you use Windows' calculator even?
 
-Create a 5 methods to represent a simple calculator:
+Create 5 methods to represent a simple calculator:
   - sum  
   - subtract  
   - multiply  

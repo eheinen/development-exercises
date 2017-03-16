@@ -1,6 +1,6 @@
 ### Exercise 3 - Australia is not a dangerous place.
 
-Create a project to get random curiosities about a category:
+Create a project to get curiosities about a category:
 
 - When I start the project I should see a list of all categories, like:
   - Animals
