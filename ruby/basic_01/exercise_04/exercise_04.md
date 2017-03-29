@@ -56,7 +56,7 @@ Once I executed the method above, I should see the result similar to:
 ```
 
 
-##### Final Challenge:
+#### Final Challenge:
 
 - Create a method that receive a text formatted and replace using your calculator.  
 Tip: Use **Regex (Regular Expression)**   
