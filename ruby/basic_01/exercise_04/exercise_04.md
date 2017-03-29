@@ -1,6 +1,6 @@
 ### Exercise 4 - Should I learn writing and reading?
 
-In this exercise we will work using strings.
+In this exercise we will work with text (strings).
 
 - Create a method to receive 3 parameters (full name, age, job)
   - The full name parameter must be validated and formatted as follows:
