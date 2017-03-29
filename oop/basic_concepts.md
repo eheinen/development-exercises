@@ -5,7 +5,7 @@ Object-Oriented Programming is a methodology or paradigm to design a program usi
 
 ## Object
 
-Any entity that has state and behavior is known as an object.  
+Any entity that has state and behaviour is known as an object.  
 For example: chair, pen, table, keyboard, bike etc.   
 It can be physical and logical.
 
