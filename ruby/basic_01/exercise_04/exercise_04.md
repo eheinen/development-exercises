@@ -82,8 +82,7 @@ irb > get_my_calculation("If a subtract 1200 and 200 I should see the result")
 
 #### References to study
 
-https://ruby-doc.org/core-2.2.0/String.html
-https://regexone.com/
-http://ryanstutorials.net/regular-expressions-tutorial/regular-expressions-basics.php
-
-Test your regex: https://regex101.com/
+https://ruby-doc.org/core-2.2.0/String.html .  
+https://regexone.com/ .  
+http://ryanstutorials.net/regular-expressions-tutorial/regular-expressions-basics.php .  
+Test your regex: https://regex101.com/ .  
