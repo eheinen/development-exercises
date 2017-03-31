@@ -67,5 +67,6 @@ def get_healthy_instructions(bmi, weight, height)
 end
 
 
+# Tests:
 calculate_bmi 75, 1.73
 calculate_bmi 45, 1.73
