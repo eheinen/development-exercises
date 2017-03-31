@@ -1,11 +1,13 @@
 def calculate_bmi(weight, height)
-  bmi = weight / (height ** 2)
+  bmi = (weight / (height ** 2)).round(2)
   classification = get_classification(bmi)
   sub_classification = get_subclassification(bmi)
 
   puts 'BMI: ' + bmi.to_s
   puts 'Classification: ' + classification
   puts 'Sub Classification: ' + sub_classification
+
+  get_healthy_instructions(bmi, weight, height)
 
 end
 
@@ -43,3 +45,27 @@ def get_subclassification(bmi)
     return 'Obese class III'
   end
 end
+
+def get_healthy_instructions(bmi, weight, height)
+  min_normal_range = 18.5
+  max_normal_range = 24.99
+  mid_normal_range = 21.74
+  points_to_lose = 0
+  weight_to_lose = 0
+
+  best_weight = (mid_normal_range * (height ** 2)).ceil
+
+  if bmi < min_normal_range
+    puts 'Points to get: ' + (min_normal_range - bmi).round(2).to_s
+    puts 'Weight to get: ' + (best_weight - weight).ceil.to_s + ' kg'
+  elsif bmi > max_normal_range
+    puts 'Points to lose: ' + (bmi - max_normal_range).round(2).to_s
+    puts 'Weight to lose: ' + (weight - best_weight).ceil.to_s + ' kg'
+   end
+
+  puts 'Best weight for you: ' + best_weight.to_s + ' kg'
+end
+
+
+calculate_bmi 75, 1.73
+calculate_bmi 45, 1.73
