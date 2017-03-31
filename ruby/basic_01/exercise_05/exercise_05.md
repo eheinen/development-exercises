@@ -4,7 +4,7 @@ In this exercise we will work with BMI (Body mass index)
 
 - Create a method to calculate the BMI and print out on Console the result with a message informing the classification as follows:
 
-
+![alt](https://github.com/eheinen/development-exercises/blob/master/ruby/basic_01/exercise_05/ClassificationTable.png)
 
 ##### Formula:
   **BMI = BODY_WEIGHT / (HEIGHT * HEIGHT)**
